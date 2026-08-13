@@ -24,7 +24,7 @@ export const botnfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Join RYC",     // this is what people actually see
+        state: " ",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
