@@ -24,8 +24,8 @@ export const botnfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: " ",     // this is what people actually see
-        type: 2,               // Custom
+        state: "Join RYC",     // this is what people actually see
+        type: 4,               // Custom
       },
     ],
   },
@@ -64,6 +64,8 @@ export const botnfig = {
       { question: "What is your name?", required: true },
       { question: "How old are you?", required: true },
       { question: "Why do you want to join?", required: true },
+      { question: "How could you help RYC?", required: true },
+      { question: "What makes you stand apart from other contenders?", required: true },
     ],
 
     // Embed colors by application status.
