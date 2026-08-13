@@ -110,7 +110,7 @@ export const botnfig = {
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
       green: "#57F287",
-      yellow: "#FEE75C",
+      yellow: "#d6df00",
       fuchsia: "#EB459E",
       red: "#ED4245",
       black: "#000000",
@@ -141,7 +141,7 @@ export const botnfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Receive Your Crown™",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,9 +161,9 @@ export const botnfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "points",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "points",
       // Currency symbol shown in balances.
       symbol: "$",
     },
@@ -217,7 +217,7 @@ export const botnfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [<@&1530241513378939021>],
 
     // Priority options users/staff can assign.
     priorities: {
