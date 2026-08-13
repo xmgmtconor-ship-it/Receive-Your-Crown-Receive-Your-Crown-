@@ -95,8 +95,8 @@ export const botnfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#001cb9",
-      secondary: "#d6df00",
+      primary: "#a16e00",
+      secondary: "#001cb9",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
